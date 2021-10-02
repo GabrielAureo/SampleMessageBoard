@@ -29,7 +29,6 @@ C:\Users\gabri\Documents\SampleMessageBoard\obj\Release\net5.0\SampleMessageBoar
 C:\Users\gabri\Documents\SampleMessageBoard\obj\Release\net5.0\ref\SampleMessageBoard.dll
 C:\Users\gabri\Documents\SampleMessageBoard\obj\Release\net5.0\SampleMessageBoard.pdb
 C:\Users\gabri\Documents\SampleMessageBoard\obj\Release\net5.0\SampleMessageBoard.csproj.AssemblyReference.cache
-C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\net5.0\appsettings.Development.json
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\net5.0\appsettings.json
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\net5.0\SampleMessageBoard.exe
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\net5.0\SampleMessageBoard.deps.json

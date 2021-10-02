@@ -16,7 +16,8 @@
       }
     },
     "SampleBoard": {
-      "commandName": "Executable"
+      "commandName": "Project",
+      "launchBrowser": true
     },
     "Docker": {
       "commandName": "Docker",

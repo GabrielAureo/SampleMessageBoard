@@ -3,7 +3,6 @@ C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\SampleMessageBoard.Views
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\SampleMessageBoard.deps.json
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\SampleMessageBoard.runtimeconfig.json
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\SampleMessageBoard.runtimeconfig.dev.json
-C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\appsettings.Development.json
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\appsettings.json
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\SampleMessageBoard.exe
 C:\Users\gabri\Documents\SampleMessageBoard\bin\Release\SampleMessageBoard.dll
