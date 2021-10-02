@@ -1,0 +1,17 @@
+﻿@model SampleMessageBoard.ViewModels.PostViewModel
+
+<form method="post" asp-action="Reply">
+    <div class="border pt-3">
+        <div class="form-group">
+            <label for="inputTitle"> Username </label>
+            <input type="text" asp-for="Username" id="inputTitle" class="form-control" placeholder="Title" />
+        </div>
+        <div class="form-group">
+            <label for="inputContent"> Title </label>
+            <textarea id="inputContent" asp-for="Content" class="form-control" placeholder="Text"></textarea>
+        </div>
+        <button action="submit">Send reply</button>
+    </div>
+
+
+</form>

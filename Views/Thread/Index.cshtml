@@ -1,0 +1,28 @@
+﻿
+@model IEnumerable<SampleMessageBoard.Models.Post>
+
+@{
+    var id = ViewContext.RouteData.Values["id"];
+
+}
+
+@if(id == null) { 
+    <h2 class="text-danger"> Something wrong happened </h2>
+} 
+
+@foreach (var post in Model)
+{
+    <div class="card mb-4">
+        <div class="card-header">
+            <div class="d-flex">
+
+                <div class="mr-auto">@post.AuthorUsername </div>
+                <div>@post.PublishDate.ToShortDateString()</div>
+            </div>
+            
+        </div>
+        <div class="card-body"><p>@post.Content</p></div>
+    </div>
+}
+
+<a class="btn btn-primary" asp-controller="Thread" asp-action="Reply" asp-route-id="@id">Reply to this thread</a>

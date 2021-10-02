@@ -1,0 +1,26 @@
+﻿@model SampleMessageBoard.ViewModels.ThreadViewModel
+
+<form method="post" asp-action="Create">
+    <div class="border pt-3">
+        <div class="form-group">
+            <h2 class="text-black"> Create new thread</h2>
+        </div>
+        <div class="form-group">
+            <label for="inputTitle"> Title </label>
+            <input type="text" asp-for="Title" id="inputTitle" class="form-control" placeholder="Title" />
+        </div>
+        <div class="form-group">
+            <label for="inputTitle"> Username </label>
+            <input type="text" asp-for="Username" id="inputTitle" class="form-control" placeholder="Title" />
+        </div>
+        <div class="form-group">
+            <label for="inputContent"> Title </label>
+            <textarea id="inputContent" asp-for="FirstPostContent" class="form-control" placeholder="Text"></textarea>
+        </div>
+
+        <button action="submit">Create thread</button>
+    </div>
+
+
+</form>
+

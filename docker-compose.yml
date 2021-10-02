@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  samplemessageboard:
+    image: ${DOCKER_REGISTRY-}samplemessageboard
+    build:
+      context: .
+      dockerfile: Dockerfile
